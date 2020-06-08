@@ -15,7 +15,7 @@
 
 (add-hook 'org-pomodoro-finished-hook
           (lambda ()
-            (popup_alert "pomodoro completed!" "time for a break.")))
+            (popup_alert "Pomodoro completed!" "Time for a break.")))
 
 (add-hook 'org-pomodoro-break-finished-hook
           (lambda ()
